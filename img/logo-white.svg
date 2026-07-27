@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 52" fill="none">
+  <!-- J: single stroke going down + hook right -->
+  <path d="M20 6v28a10 10 0 0 0 20 0" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- T: crossbar + stem -->
+  <line x1="52" y1="6" x2="92" y2="6" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+  <line x1="72" y1="6" x2="72" y2="46" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+  <!-- Speed accent: 3 tapered lines -->
+  <rect x="102" y="14" width="54" height="3.5" rx="1.75" fill="#FF5C00" opacity="0.8"/>
+  <rect x="108" y="24.5" width="48" height="2.4" rx="1.2" fill="#FF5C00" opacity="0.4"/>
+  <rect x="102" y="34" width="34" height="1.6" rx="0.8" fill="#FF5C00" opacity="0.18"/>
+</svg>

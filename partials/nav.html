@@ -1,0 +1,44 @@
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo" aria-label="João Torres — Início">
+      <img src="img/logo.svg" alt="João Torres" class="nav__logo-img">
+    </a>
+
+    <div class="nav__links">
+      <a href="#sobre" class="nav__link">Sobre</a>
+      <a href="#marcas" class="nav__link">Marcas</a>
+      <a href="#conquistas" class="nav__link">Conquistas</a>
+      <a href="#fotografia" class="nav__link">Fotografia</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+    </div>
+
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-mobile">
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+    </button>
+  </div>
+
+  <div class="nav__backdrop" aria-hidden="true"></div>
+
+  <div class="nav__mobile" id="nav-mobile" aria-hidden="true" role="dialog" aria-label="Menu de navegação">
+    <div class="nav__mobile-header">
+      <a href="#hero" class="nav__logo" aria-label="João Torres — Início">
+        <img src="img/logo.svg" alt="João Torres" class="nav__logo-img">
+      </a>
+      <button class="nav__close" aria-label="Fechar menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="nav__mobile-links">
+      <a href="#sobre" class="nav__mobile-link">Sobre</a>
+      <a href="#marcas" class="nav__mobile-link">Marcas</a>
+      <a href="#conquistas" class="nav__mobile-link">Conquistas</a>
+      <a href="#fotografia" class="nav__mobile-link">Fotografia</a>
+      <a href="#contacto" class="nav__mobile-link">Contacto</a>
+    </div>
+  </div>
+</nav>
